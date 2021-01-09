@@ -25,7 +25,7 @@ SECRET_KEY = 'apz6b_p&8^j92u6s$9n(n9#8&ke8q=8!iis(!cn0apyvofqpo_'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['*']
 
 
 # Application definition
@@ -37,6 +37,8 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'mygallery'
+    'bootstrap3',
 ]
 
 MIDDLEWARE = [
@@ -76,7 +78,11 @@ WSGI_APPLICATION = 'gallery.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
+        'NAME': 'moringa',
+        'PASSWORD':'access',
+        'USER':'sharon',
+        # 'HOST': '127.0.0.1',
+        # 'PORT':5432,
     }
 }
 
@@ -105,7 +111,7 @@ AUTH_PASSWORD_VALIDATORS = [
 
 LANGUAGE_CODE = 'en-us'
 
-TIME_ZONE = 'UTC'
+TIME_ZONE = 'Africa/Nairobi'
 
 USE_I18N = True
 
