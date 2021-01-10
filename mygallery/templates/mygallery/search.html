@@ -4,9 +4,9 @@
     {% if images %}
     <h2 class="text-center" id="found">Found {{ images|length }} images in '{{message}}' category</h2>
     {% else %}
-    <h2 class="text-center" id="foundnon"> Found 0 images for your search{{message}},please go back and view it from home page</h2>
+    <h2 class="text-center" id="foundnon"> Found 0 images for your search {{message}} ,kindly go back and view it from home page</h2>
     <a class="d-block mx-auto" href="/">
-        <button class="btn btn-sm btn-success d-block mx-auto">Back Home</button>
+        <button class="btn btn-sm btn-dark d-block mx-auto">Back Home</button>
     </a>
     {% endif %}
     {% if images %}
