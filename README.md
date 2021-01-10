@@ -7,6 +7,8 @@ Sharon Anyango
 This is an app that displays photos, the user can search an image using the tags for search category copy the link and share to her friends.
 
 ## Project live site
+![Screenshot from 2021-01-10 22-45-10](https://user-images.githubusercontent.com/70533100/104133802-e8bf8f00-5396-11eb-868f-03085601bdf6.png)
+
 
 ## Features
 * Images being displayed according to the time posted.
