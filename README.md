@@ -29,6 +29,8 @@ This is an app that displays photos, the user can search an image using the taag
 
 
 ## License
+The project is underMIT license Copyright © 2020.All rigths reserved
+
 ## Contact Details
 * +254702165045
 * contact me @ anyangosharon26@gmail.com
