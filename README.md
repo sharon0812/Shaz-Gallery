@@ -8,6 +8,8 @@ This is an app that displays photos, the user can search an image using the tags
 
 ## Project live site
 
+
+
 ## Features
 * Images being displayed according to the time posted.
 * Search to look for image by location or category
