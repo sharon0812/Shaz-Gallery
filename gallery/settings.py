@@ -37,7 +37,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'mygallery'
+    'mygallery',
     'bootstrap3',
 ]
 
@@ -77,12 +77,12 @@ WSGI_APPLICATION = 'gallery.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': 'moringa',
-        'PASSWORD':'access',
-        'USER':'sharon',
-        # 'HOST': '127.0.0.1',
-        # 'PORT':5432,
+        'ENGINE': 'django.db.backends.postgresql',
+        'NAME': 'gallery',
+        'PASSWORD':'Access',
+        'USER':'moringa',
+        'HOST': '127.0.0.1',
+        'PORT':5432,
     }
 }
 
@@ -120,7 +120,13 @@ USE_L10N = True
 USE_TZ = True
 
 
-# Static files (CSS, JavaScript, Images)
+
 # https://docs.djangoproject.com/en/1.11/howto/static-files/
 
 STATIC_URL = '/static/'
+STATICFILES_DIRS = [
+    os.path.join(BASE_DIR, "static"),
+]
+
+MEDIA_URL = '/media/'
+MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
