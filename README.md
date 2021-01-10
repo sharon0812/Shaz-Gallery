@@ -4,7 +4,7 @@
 Sharon Anyango
 
 ## Description
-This is an app that displays photos, the user can search an image using the taags for search category copy the link and share to her friends.
+This is an app that displays photos, the user can search an image using the tags for search category copy the link and share to her friends.
 
 ## Project live site
 
