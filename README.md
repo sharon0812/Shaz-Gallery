@@ -19,7 +19,7 @@ This is an app that displays photos, the user can search an image using the taag
 * Clone the repository from github.
 * cd into the project folder and code.
 * Install all the requirement.
-* Run python3 according to your version to. launch the app.
+* Run python3 according to your version to launch the app.
 
 ## Technology used
 * Python3
