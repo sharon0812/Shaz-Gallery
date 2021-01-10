@@ -10,6 +10,10 @@ This is an app that displays photos, the user can search an image using the taag
 
 ## Features
 * Images being displayed according to the time posted.
+* Search to look for image by location or category
+* Modal to display images details
+* Image links
+
 
 ## Setup installation
 * Clone the repository from github.
@@ -21,7 +25,10 @@ This is an app that displays photos, the user can search an image using the taag
 * Python3
 * Django3
 * Heroku
-* Git
+* Bootsrap
+
 
 ## License
 ## Contact Details
+* +254702165045
+* contact me @ anyangosharon26@gmail.com
